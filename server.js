@@ -28,6 +28,7 @@ app.post('/update', function(req, res) {
                     else {
                         // this will still cause jquery to display 'Record updated!'
                         // eventhough it was inserted
+                        //pippo
                         res.json(result);
                     }
                   });
